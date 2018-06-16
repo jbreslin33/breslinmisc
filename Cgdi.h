@@ -13,12 +13,12 @@
 //  Author: Mat Buckland 2001 (fup@ai-junkie.com)
 //
 //------------------------------------------------------------------------
-#include <windows.h>
+//#include <windows.h>
 #include <string>
 #include <vector>
 #include <cassert>
 
-#include "2D/Vector2D.h"
+#include "../breslin2D/Vector2D.h"
 
 
 //------------------------------- define some colors
