@@ -3,7 +3,6 @@
 #include "register_types.h"
 #include "class_db.h"
 #include "autolist.h"
-#include "CellSpacePartition.h"
 #include "FrameCounter.h"
 #include "iniFileLoaderBase.h"
 #include "PriorityQueue.h"
@@ -14,7 +13,6 @@
 
 void register_breslinmisc_types() {
 
-        ClassDB::register_class<CellSpacePartition>();
         ClassDB::register_class<FrameCounter>();
         ClassDB::register_class<iniFileLoaderBase>();
         ClassDB::register_class<Smoother>();
