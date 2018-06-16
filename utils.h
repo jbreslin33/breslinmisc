@@ -16,6 +16,7 @@
 #include <limits>
 #include <cassert>
 #include <iomanip>
+#include <stdlib.h>
 
 
 
@@ -269,6 +270,7 @@ inline double StandardDeviation(const std::vector<double>& v)
 }
 
 
+/*
 template <class container>
 inline void DeleteSTLContainer(container& c)
 {
@@ -288,6 +290,7 @@ inline void DeleteSTLMap(map& m)
     it->second = NULL;
   }
 }
+*/
 
 
 

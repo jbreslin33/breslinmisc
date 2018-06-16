@@ -18,6 +18,7 @@
 #include <fstream>
 #include <string>
 #include <cassert>
+#include <stdlib.h> 
 
 
 class iniFileLoaderBase
