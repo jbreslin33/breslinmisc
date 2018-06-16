@@ -4,7 +4,7 @@
 #include "class_db.h"
 #include "autolist.h"
 #include "CellSpacePartition.h"
-#include ".Cgdih"
+#include "Cgdi.h"
 #include "ConsoleUtils.h"
 #include "FrameCounter.h"
 #include "iniFileLoaderBase.h"
@@ -17,7 +17,12 @@
 
 void register_summator_types() {
 
-        ClassDB::register_class<Summator>();
+        ClassDB::register_class<CellSpacePartition>();
+        ClassDB::register_class<Cgdi>();
+        ClassDB::register_class<FrameCounter>();
+        ClassDB::register_class<iniFileLoaderBase>();
+        ClassDB::register_class<Smoother>();
+        ClassDB::register_class<TypeToString>();
 }
 
 void unregister_summator_types() {
