@@ -15,7 +15,7 @@
 #include "utils.h"
 #include "WindowUtils.h"
 
-void register_summator_types() {
+void register_breslinmisc_types() {
 
         ClassDB::register_class<CellSpacePartition>();
         ClassDB::register_class<Cgdi>();
@@ -25,6 +25,6 @@ void register_summator_types() {
         ClassDB::register_class<TypeToString>();
 }
 
-void unregister_summator_types() {
+void unregister_breslinmisc_types() {
    //nothing to do here
 }
